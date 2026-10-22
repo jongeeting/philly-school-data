@@ -56,21 +56,25 @@ Open data gaps that someone at the district could close. Generated from [sources
    - Context: CRDC referrals to law enforcement are not comparable before 2015-16: 2013-14 reports 94 referrals but 1,357 school-related arrests (arrests are normally a subset); 2015-16 reports 6,834
 27. **Which buildings does the lead-safe certification program cover, and is there a schedule for the rest?** (GAP-064, medium priority)
    - Context: Lead-safe assessments cover 163 schools; it is unclear whether every occupied building has one or which buildings are required to
-28. **Do alternative and contracted programs have NCES codes? About 25 per year have none in the master lists.** (GAP-004, low priority)
+28. **Can the catchment retention file include the student's grade, or the catchment level (elementary, middle, high) each student is counted under?** (GAP-082, medium priority)
+   - Context: Catchment retention (flow) file has no grade or school level: it does not say which grades a student is in or whether they count toward their elementary, middle, or high catchment, so flows cannot be cut to a grade band (for example grades 7-12) and K-8 and 6-12 schools have to be split by rule
+29. **How many students hold SEPTA student passes, by school, sector, and grade, and what share ride in a typical month?** (GAP-083, medium priority)
+   - Context: No student transit pass data: how many students get SEPTA student passes, by school, sector (district, charter, non-public), and grade, and how often they ride, is not published
+30. **Do alternative and contracted programs have NCES codes? About 25 per year have none in the master lists.** (GAP-004, low priority)
    - Context: NCES codes lost to scientific notation in CSV lists were repaired from xlsx where available or bridged from adjacent years; remaining blanks (about 25 per year in 2018, 2019, 2026, 2027) are programs with no NCES code in the source
-29. **About 39 school-years in the master lists have no SRC School ID. Is that expected for those programs?** (GAP-005, low priority)
+31. **About 39 school-years in the master lists have no SRC School ID. Is that expected for those programs?** (GAP-005, low priority)
    - Context: Missing SRC school IDs (39 staged rows)
-30. **Could Board meeting recordings be made downloadable or captioned, or shared for transcription?** (GAP-039, low priority)
+32. **Could Board meeting recordings be made downloadable or captioned, or shared for transcription?** (GAP-039, low priority)
    - Context: Board meeting video has no transcripts or captions and cannot be downloaded
-31. **Is there a complete list of Board and SRC meeting videos (about 28 are not reachable from the player's listings)?** (GAP-042, low priority)
+33. **Is there a complete list of Board and SRC meeting videos (about 28 are not reachable from the player's listings)?** (GAP-042, low priority)
    - Context: 28 of 320 videos on the district TelVue player are not reachable from its listing pages (playlists show at most 50, no pagination); most are SRC meetings
-32. **What was the ULCS code for Ombudsman South Transition (SRC 848, 2010-12)?** (GAP-045, low priority)
+34. **What was the ULCS code for Ombudsman South Transition (SRC 848, 2010-12)?** (GAP-045, low priority)
    - Context: Ombudsman South Transition (2010-11 and 2011-12) has an SRC school ID that maps to no ULCS code, so its enrollment is unassigned
-33. **Is there a crosswalk between the serious incident types used through 2015-16 and the categories used from 2016-17?** (GAP-057, low priority)
+35. **Is there a crosswalk between the serious incident types used through 2015-16 and the categories used from 2016-17?** (GAP-057, low priority)
    - Context: Serious incident categories changed in 2016-17 (fine-grained types before, grouped categories after); no published crosswalk between the schemes
-34. **Was the 2011-12 CRDC submission complete for students with disabilities and English learners? It shows almost no repeat suspensions for IDEA students.** (GAP-061, low priority)
+36. **Was the 2011-12 CRDC submission complete for students with disabilities and English learners? It shows almost no repeat suspensions for IDEA students.** (GAP-061, low priority)
    - Context: CRDC 2011-12 discipline counts for students with disabilities and English learners look under-reported (almost no repeat suspensions reported for IDEA students; IDEA suspension rate equals the non-disabled rate, unlike every later year)
-35. **Where are drinking water lead results for charter schools after 2019?** (GAP-063, low priority)
+37. **Where are drinking water lead results for charter schools after 2019?** (GAP-063, low priority)
    - Context: Two 2019 water reports cover many charter schools in one table (Mastery, Renaissance charters) and are not read; charter water testing after 2019 is not in the district's folders
-36. **Do 2023-2026 AHERA reports exist for the buildings whose latest posted report is from 2016 or 2019?** (GAP-065, low priority)
+38. **Do 2023-2026 AHERA reports exist for the buildings whose latest posted report is from 2016 or 2019?** (GAP-065, low priority)
    - Context: AHERA reports before 2023 use an older layout; the latest report for 18 buildings is from 2016 or 2019, and 6 reports could not be read
