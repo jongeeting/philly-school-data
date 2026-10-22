@@ -211,6 +211,10 @@ TABLES = {
         "aun x sy",
         "October 1 enrollment and low-income students by agency from PDE (2015-16 to 2025-26). A charter school is its own agency, so this is enrollment by charter school (multi-campus charters are one row). School districts exclude students they pay to attend charters.",
     ),
+    "nonpublic_enrollment": (
+        "aun x sy x grade x grade_label x funding x residency",
+        "Private and nonpublic school enrollment from PDE (2016-17 to 2025-26) by institution, grade, funding (private_pay or public_funded) and residency. county is where the school is, not where students live, so Philadelphia rows include suburban students and miss Philadelphians at suburban schools. Residency is pa_resident or non_pa_resident from 2024-25 on and all before. Grades 7 and 8 combine elementary (7E, 8E) and secondary (7S, 8S) programs; grade_label keeps the source's label. Reporting is by the schools; completeness is not stated. Penn Foster High School (an online school in Lackawanna County) jumps from 12,453 to 82,204 students in 2023-24, so statewide totals are not comparable across that year.",
+    ),
     "measure_coverage": (
         "measure x sy x sector",
         "For each measure, school year and sector, how many listed schools have a value. Shows where charter schools are missing from district-only files.",

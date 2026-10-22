@@ -435,6 +435,13 @@ def cmd_build_pde_staff(a):
     print("  " + "; ".join(f"{k} {len(v)} rows" for k, v in t.items()))
 
 
+def cmd_build_nonpublic(a):
+    from .pde_nonpublic import write_nonpublic
+
+    df = write_nonpublic()
+    print(f"  nonpublic_enrollment {len(df)} rows, {df['sy'].nunique()} years")
+
+
 def cmd_build_finance(a):
     t = build_finance()
     mart = write_finance(t)
@@ -652,6 +659,11 @@ def main():
         "build-pde-staff", help="professional staff profile and teacher retention by agency (PDE)"
     )
     s.set_defaults(fn=cmd_build_pde_staff)
+
+    s = sub.add_parser(
+        "build-nonpublic", help="private and nonpublic school enrollment by grade (PDE)"
+    )
+    s.set_defaults(fn=cmd_build_nonpublic)
 
     s = sub.add_parser("build-finance", help="state school finance tables from the AFR files")
     s.set_defaults(fn=cmd_build_finance)
